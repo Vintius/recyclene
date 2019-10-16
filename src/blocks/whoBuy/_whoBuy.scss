@@ -1,0 +1,71 @@
+.whoBuy {
+  border-bottom: 2px solid #e5e5e5;
+  padding-bottom: 64.5px;
+}
+
+.whoBuy__content {
+
+}
+
+.whoBuy__title {
+
+}
+
+.whoBuy .content__title {
+  font-family: Circe;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.19;
+  color: #000000;
+  text-align: center;
+  margin-top: 72px;
+  margin-bottom: 19px;
+}
+
+.whoBuy__cols {
+  max-width: 724px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.whoBuy__item {
+  text-align: center;
+  width: 260px;
+  margin-top: 44px;
+}
+
+.whoBuy__imageWrapper {
+  width: 119px;
+  height: 119px;
+  margin: 0 auto;
+  line-height: 114px;
+  border-radius: 50%;
+  margin-bottom: 38.5px;
+}
+
+.whoBuy__imageWrapper--bgGreen {
+  background-color: rgba(117, 227, 95, 0.2);
+}
+
+.whoBuy__imageWrapper--bgRed {
+  background-color: rgba(229, 32, 129, 0.2);
+}
+
+.whoBuy__icon {
+  vertical-align: middle;
+}
+
+.whoBuy__item .whoBuy__title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 12.5px;
+}
+
+.whoBuy__text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.44;
+
+}

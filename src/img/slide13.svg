@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="554" height="347" viewBox="0 0 554 347">
+    <defs>
+        <path id="a" d="M.94.876h552.628V346.92H.94z"/>
+        <path id="d" d="M.773 0H556.85v27.984H.773z"/>
+        <filter id="c" width="105.2%" height="203.6%" x="-2.6%" y="-44.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+        <path id="e" d="M.131 5.233h4.197V.02H.131v5.212z"/>
+        <path id="g" d="M0 .086v4.407h7.394V.086H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#D8D8D8" xlink:href="#a"/>
+        <g mask="url(#b)">
+            <g transform="translate(-1 1)">
+                <path fill="#F8F8F8" d="M1 0h556v510H1z"/>
+                <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+                <use fill="#FFF" xlink:href="#d"/>
+                <path fill="#7BB736" d="M248.2 26.934h31.5v1.049h-31.5z"/>
+                <path fill="#80BA27" d="M80.944 14.712v-1.268h.626c.497 0 .745.206.745.63 0 .422-.248.638-.736.638h-.635zm-.985-2.207v4.226h.985v-1.155h.72c1.208 0 1.696-.61 1.696-1.465 0-.911-.548-1.606-1.773-1.606H79.96zM84.779 14.223h1.892c.009-.526-.334-.92-.882-.92-.557 0-.9.31-1.01.92zm2.56 2.085c-.376.348-.865.526-1.473.526-.625 0-1.122-.206-1.507-.61-.377-.404-.566-.94-.566-1.606 0-.63.189-1.155.557-1.578.369-.423.865-.639 1.482-.639.505 0 .942.188 1.293.554.351.367.531.836.531 1.41 0 .234-.017.431-.06.582h-2.783c.077.629.54.986 1.156.986.437 0 .796-.132 1.088-.386l.282.761z"/>
+                <g transform="translate(88.06 12.484)">
+                    <mask id="f" fill="#fff">
+                        <use xlink:href="#e"/>
+                    </mask>
+                    <path fill="#4B5D67" d="M.131 4.247V.02h.986v3.22H2.7V.022h.985v3.22h.642v1.992h-.925v-.986z" mask="url(#f)"/>
+                </g>
+                <path fill="#4B5D67" d="M93.88 16.73h-.984v-4.225h.985v2.676l1.798-2.676h.985v4.226h-.985v-2.677zM100.956 12.505l-1.481 2.01 1.661 2.216h-1.285l-1.524-2.132 1.387-2.094h1.242zm-3.648 4.226h.985v-4.226h-.985v4.226zM104.28 16.73v-3.145h-1.02l-.026.45c-.223 2.31-.668 2.771-1.738 2.78l-.086-1.052c.128.01.24-.028.351-.112.232-.188.463-.817.522-1.831l.06-1.315h2.921v4.226h-.985zM106.738 14.223h1.893c.008-.526-.334-.92-.883-.92-.556 0-.899.31-1.01.92zm2.56 2.085c-.376.348-.864.526-1.472.526-.626 0-1.122-.206-1.508-.61-.377-.404-.565-.94-.565-1.606 0-.63.188-1.155.557-1.578.368-.423.865-.639 1.481-.639.506 0 .943.188 1.294.554.35.367.53.836.53 1.41 0 .234-.017.431-.06.582h-2.783c.077.629.54.986 1.156.986.437 0 .797-.132 1.088-.386l.283.761zM112.741 16.73v-1.614h-1.687v1.615h-.985v-4.226h.985V14.1h1.687v-1.596h.985v4.226z"/>
+                <g transform="translate(65.5 12.325)">
+                    <mask id="h" fill="#fff">
+                        <use xlink:href="#g"/>
+                    </mask>
+                    <path fill="#80BA27" d="M6.619 2.707l-.1.134-.005.009a.829.829 0 0 1-.685.376.818.818 0 0 1-.62-.292L3.623.966 3.488.8l-.01-.013L3.472.78 3.472.778A1.933 1.933 0 0 0 2.01.086C.9.087 0 1.073 0 2.29s.9 2.203 2.01 2.203c.635 0 1.204-.325 1.57-.83L2.804 2.7l-.103.141-.007.009a.828.828 0 0 1-.684.376c-.472 0-.854-.42-.855-.936.001-.517.383-.936.855-.936.245 0 .46.109.618.29l.13.161 1.595 1.979.008.01.004.005.003.002c.364.426.887.692 1.461.692.633 0 1.2-.322 1.565-.823l-.775-.963z" mask="url(#h)"/>
+                </g>
+                <path fill="#4B5D67" d="M70.529 14.198l.099-.134.005-.009a.83.83 0 0 1 .685-.376c.246 0 .463.11.62.292l1.586 1.968.136.168.01.013.005.004.002.003c.363.425.886.692 1.461.692 1.11 0 2.01-.986 2.01-2.204 0-1.216-.9-2.202-2.01-2.203-.634 0-1.204.326-1.57.83l.776.964.104-.142.005-.009a.831.831 0 0 1 .685-.376c.472 0 .854.42.855.936-.001.518-.383.936-.855.937a.815.815 0 0 1-.618-.29l-.13-.162-1.594-1.979-.009-.01-.005-.005-.002-.002a1.928 1.928 0 0 0-1.462-.692c-.631 0-1.199.323-1.565.823l.776.963z"/>
+                <text font-family="Circe-Regular, Circe" font-size="4.9" opacity=".3">
+                    <tspan x="196.05" y="17.243" fill="#000">Мои объявления</tspan>
+                </text>
+                <text font-family="Circe-Light, Circe" font-size="9.1" font-weight="300">
+                    <tspan x="111" y="53.774" fill="#000">Мои сделки</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="249.6" y="17.243" fill="#000">Мои сделки</tspan>
+                </text>
+                <text font-family="Circe-ExtraBold, Circe" font-size="3.5" font-weight="600">
+                    <tspan x="366.5" y="52.621" fill="#000">АКТИВНЫЕ</tspan>
+                </text>
+                <text font-family="Circe-ExtraBold, Circe" font-size="3.5" font-weight="600" opacity=".3">
+                    <tspan x="401.5" y="52.621" fill="#000">ЗАКРЫТЫЕ</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9" opacity=".3">
+                    <tspan x="303.85" y="17.243" fill="#000">Новое объявление</tspan>
+                </text>
+                <ellipse cx="465.375" cy="13.817" fill="#000" rx="6.125" ry="6.121"/>
+                <text font-family="Circe-Regular, Circe" font-size="3.85">
+                    <tspan x="460.607" y="15.893" fill="#FFF">ИА</tspan>
+                </text>
+                <path fill="#D8D8D8" d="M476.75 15.39l1.75-2.098H475z"/>
+                <path fill="#4F636F" fill-rule="nonzero" d="M443.85 11.193a.538.538 0 0 0-.525.525v.24a2.426 2.426 0 0 0-1.925 2.384v1.574l-.7.809v.415h6.3v-.415l-.7-.81v-1.573c0-1.182-.82-2.145-1.925-2.383v-.24a.538.538 0 0 0-.525-.526zm-.7 6.297c0 .384.315.7.7.7.385 0 .7-.316.7-.7h-1.4z"/>
+                <path fill="#7BB736" d="M295.8 17.49a2.803 2.803 0 0 1-2.8-2.799 2.803 2.803 0 0 1 2.8-2.798c1.543 0 2.8 1.256 2.8 2.798a2.803 2.803 0 0 1-2.8 2.799zm0-6.297a3.499 3.499 0 1 0-.002 6.998 3.499 3.499 0 0 0 .002-6.998zm.35 1.75h-.7v1.399h-1.4v.7h1.4v1.398h.7v-1.399h1.4v-.7h-1.4v-1.399z"/>
+                <rect width="4.2" height="3.498" x="444.2" y="10.494" fill="#E72081" rx=".7"/>
+                <text font-family="Circe-ExtraBold, Circe" font-size="3.15" font-weight="600">
+                    <tspan x="444.816" y="12.794" fill="#FFF">10</tspan>
+                </text>
+                <path fill="#FFF" stroke="#EBEBEB" stroke-width=".7" d="M111.35 72.767V272.83a3.152 3.152 0 0 0 3.156 3.157h314.988a3.152 3.152 0 0 0 3.156-3.157V72.767a3.152 3.152 0 0 0-3.156-3.158H114.506a3.152 3.152 0 0 0-3.156 3.158z"/>
+                <rect width="78.75" height="77.305" x="343.75" y="79.753" fill="#F3F8FC" rx="1.75"/>
+                <rect width="53.2" height="10.843" x="355.3" y="136.77" stroke="#7BB736" stroke-width=".7" rx="5.422"/>
+                <text font-family="Circe-ExtraBold, Circe" font-size="4.2" font-weight="600">
+                    <tspan x="362.65" y="144.267" fill="#000">ЗАКРЫТЬ СДЕЛКУ</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="368.747" y="122.906" fill="#7F7F7F">500 ₽ за кг.</tspan>
+                </text>
+                <text font-family="Circe-Light, Circe" font-size="9.1" font-weight="300">
+                    <tspan x="360.9" y="116.737" fill="#000">100 000 ₽</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="360.797" y="92.874" fill="#4F636F">Сделка №1234567</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="208.3" y="205.782" fill="#000">Наличные (постоплата в течение 7 дней)</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="165.95" y="205.782" fill="#4F636F">Условия оплаты</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="208.3" y="226.77" fill="#000">28 марта 2017</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="165.95" y="226.77" fill="#4F636F">Отгрузка до</tspan>
+                </text>
+                <path stroke="#EBEBEB" stroke-width=".5" d="M165.95 214.774h157.677"/>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="165.95" y="246.358" fill="#4F636F">Условия</tspan>
+                </text>
+                <path stroke="#EBEBEB" stroke-width=".5" d="M165.95 234.362h157.677M111 167.901h321.98"/>
+                <path fill="#FFDC27" d="M211.25 86.749l-1.234.649.235-1.374-.998-.973 1.38-.2.617-1.25.617 1.25 1.38.2-.998.973.235 1.374zM215.975 86.749l-1.234.649.235-1.374-.998-.973 1.38-.2.617-1.25.617 1.25 1.38.2-.998.973.235 1.374zM220.7 86.749l-1.234.649.235-1.374-.998-.973 1.38-.2.617-1.25.617 1.25 1.38.2-.998.973.235 1.374zM225.425 86.749l-1.234.649.235-1.374-.998-.973 1.38-.2.617-1.25.617 1.25 1.38.2-.998.973.235 1.374z"/>
+                <path fill="#D8D8D8" d="M230.15 86.749l-1.234.649.235-1.374-.998-.973 1.38-.2.617-1.25.617 1.25 1.38.2-.998.973.235 1.374z"/>
+                <text font-family="Circe-Light, Circe" font-size="8.4" font-weight="300">
+                    <tspan x="165.95" y="187.745" fill="#7BB736">Макулатура: </tspan> <tspan x="214.326" y="187.745" fill="#000">типографская резка</tspan>
+                </text>
+                <text font-family="Circe-Light, Circe" font-size="6.3" font-weight="300">
+                    <tspan x="372.13" y="189.992" fill="#000">6300 кг.</tspan>
+                </text>
+                <text font-family="Circe-Light, Circe" font-size="6.3" font-weight="300">
+                    <tspan x="373.849" y="217.626" fill="#000">7123 м</tspan>
+                </text>
+                <text font-family="Circe-Light, Circe" font-size="3.5" font-weight="300">
+                    <tspan x="391.7" y="214.926" fill="#000">3</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.2">
+                    <tspan x="373.443" y="199.185" fill="#4F636F">Вес сырья</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.2">
+                    <tspan x="370.437" y="227.169" fill="#4F636F">Объем сырья</tspan>
+                </text>
+                <path stroke="#F0F0F0" stroke-width=".5" d="M419.52 207.428h-75.776"/>
+                <text font-family="Circe-Bold, Circe" font-size="3.15" font-weight="bold">
+                    <tspan x="211.845" y="244.407" fill="#000">ДОВЕРЕННОСТЬ НА ВОДИТЕЛЯ</tspan>
+                </text>
+                <text font-family="Circe-Bold, Circe" font-size="3.15" font-weight="bold">
+                    <tspan x="270.587" y="244.407" fill="#000">ПЛАТНЫЙ ВЪЕЗД</tspan>
+                </text>
+                <text font-family="Circe-Bold, Circe" font-size="3.15" font-weight="bold">
+                    <tspan x="211.281" y="256.65" fill="#C3C3C3">ВОДИТЕЛЬ-ГРАЖДАНИН РФ</tspan>
+                </text>
+                <rect width="56.2" height="8.245" x="208.55" y="241.258" stroke="#7BB736" stroke-width=".5" rx="1.75"/>
+                <path stroke="#E3E3E3" stroke-width=".5" d="M208.2 255v5.247c0 .832.668 1.499 1.497 1.499h47.256c.83 0 1.497-.67 1.497-1.499V255c0-.832-.668-1.499-1.497-1.499h-47.256c-.83 0-1.497.669-1.497 1.499z"/>
+                <text font-family="Circe-Bold, Circe" font-size="3.15" font-weight="bold">
+                    <tspan x="264.237" y="256.65" fill="#C3C3C3">НУЖНЫ ББ ВЗАМЕН</tspan>
+                </text>
+                <path stroke="#E3E3E3" stroke-width=".5" d="M261.75 255v5.247c0 .832.671 1.499 1.506 1.499h32.888c.838 0 1.506-.668 1.506-1.499V255c0-.832-.671-1.499-1.506-1.499h-32.888c-.838 0-1.506.668-1.506 1.499z"/>
+                <rect width="32.05" height="8.245" x="268.05" y="241.258" stroke="#7BB736" stroke-width=".5" rx="1.75"/>
+                <text font-family="Circe-Light, Circe" font-size="8.4" font-weight="300">
+                    <tspan x="165.95" y="88.753" fill="#000">Югсервис</tspan>
+                </text>
+                <text font-family="Circe-Light, Circe" font-size="6.3" font-weight="300">
+                    <tspan x="121.85" y="87.502" fill="#4F636F">Покупатель</tspan>
+                </text>
+                <text font-family="Circe-Light, Circe" font-size="6.3" font-weight="300">
+                    <tspan x="121.5" y="186.494" fill="#4F636F">Сырье</tspan>
+                </text>
+                <rect width="78.25" height="55.117" x="344" y="178.995" stroke="#EBEBEB" stroke-width=".5" rx="1.75"/>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="208.3" y="106.79" fill="#000">Гужиков Павел Алексеевич</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="165.95" y="106.79" fill="#4F636F">Представитель</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="208.3" y="127.778" fill="#000">Москва, ул. Академика Королева, 12, cтроение 21</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="208.3" y="136.523" fill="#7BB736">Показать на карте</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="165.95" y="127.778" fill="#4F636F">Адрес</tspan>
+                </text>
+                <path stroke="#EBEBEB" stroke-width=".5" d="M165.95 115.782h157.677"/>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="208.3" y="155.412" fill="#000">+7 (495) 123-23-34</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="165.95" y="155.412" fill="#4F636F">Телефон</tspan>
+                </text>
+                <path stroke="#EBEBEB" stroke-width=".5" d="M165.95 143.416h157.677"/>
+                <path fill="#FFF" stroke="#EBEBEB" stroke-width=".7" d="M111.35 286.84v200.064a3.152 3.152 0 0 0 3.156 3.158h314.988a3.152 3.152 0 0 0 3.156-3.158V286.841a3.152 3.152 0 0 0-3.156-3.158H114.506a3.152 3.152 0 0 0-3.156 3.158z"/>
+                <rect width="78.75" height="77.305" x="343.75" y="293.827" fill="#F3F8FC" rx="1.75"/>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="368.747" y="336.98" fill="#7F7F7F">500 ₽ за кг.</tspan>
+                </text>
+                <text font-family="Circe-Light, Circe" font-size="9.1" font-weight="300">
+                    <tspan x="360.9" y="330.811" fill="#000">100 000 ₽</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="360.797" y="306.948" fill="#4F636F">Сделка №1234567</tspan>
+                </text>
+                <g>
+                    <path fill="#FFDC27" d="M240.8 300.823l-1.234.649.235-1.374-.998-.973 1.38-.2.617-1.25.617 1.25 1.38.2-.998.973.235 1.374zM245.525 300.823l-1.234.649.235-1.374-.998-.973 1.38-.2.617-1.25.617 1.25 1.38.2-.998.973.235 1.374zM250.25 300.823l-1.234.649.235-1.374-.998-.973 1.38-.2.617-1.25.617 1.25 1.38.2-.998.973.235 1.374zM254.975 300.823l-1.234.649.235-1.374-.998-.973 1.38-.2.617-1.25.617 1.25 1.38.2-.998.973.235 1.374z"/>
+                    <path fill="#D8D8D8" d="M259.7 300.823l-1.234.649.235-1.374-.998-.973 1.38-.2.617-1.25.617 1.25 1.38.2-.998.973.235 1.374z"/>
+                </g>
+                <text font-family="Circe-Light, Circe" font-size="8.4" font-weight="300">
+                    <tspan x="165.95" y="302.827" fill="#000">ООО «Приморье»</tspan>
+                </text>
+                <text font-family="Circe-Light, Circe" font-size="6.3" font-weight="300">
+                    <tspan x="121.85" y="301.576" fill="#4F636F">Покупатель</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="208.3" y="320.864" fill="#000">Гужиков Павел Алексеевич</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="165.95" y="320.864" fill="#4F636F">Представитель</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="208.3" y="341.852" fill="#000">Москва, ул. Академика Королева, 12, cтроение 21</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="208.3" y="350.597" fill="#7BB736">Показать на карте</tspan>
+                </text>
+                <text font-family="Circe-Regular, Circe" font-size="4.9">
+                    <tspan x="165.95" y="341.852" fill="#4F636F">Адрес</tspan>
+                </text>
+                <path stroke="#EBEBEB" stroke-width=".5" d="M165.95 329.856h157.677"/>
+            </g>
+        </g>
+    </g>
+</svg>

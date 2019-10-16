@@ -1,0 +1,199 @@
+.wantBe {
+  background-color: #f8f8f8;
+  padding-bottom: 45px;
+}
+
+.wantBe__titleText {
+  padding-top: 148px;
+}
+
+.wantBe__title {
+  width: 398px;
+  height: 24px;
+  font-family: Circe;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 0.75;
+  margin: 0 auto;
+  margin-bottom: 28px;
+}
+
+.wantBe__titleDesc {
+  width: 540px;
+  height: 50px;
+  font-family: Circe;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.56;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 46px;
+}
+
+.wantBe__buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 124px;
+}
+
+.wantBe__button {
+  width: 181px;
+  height: 50px;
+  border-radius: 100px;
+  border: solid 2px #7bb637;
+}
+
+.wantBe__button:first-child {
+  margin-right: 22px;
+}
+
+.wantBe__button.isActive {
+  background-color: #7bb637;
+  color: white;
+}
+
+.wantBe__buttonText {
+  width: 107px;
+  height: 14px;
+  font-family: Circe;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.wantBe__footer {
+  display: flex;
+  padding: 0 140px;
+  justify-content: space-between;
+  color: #7d7d7d;
+  height: 38px;
+}
+
+.footer__logo {
+
+}
+
+.footer__contacts {
+  display: flex;
+  align-items: center;
+}
+
+.footer__email {
+  width: 139px;
+  height: 14px;
+  font-family: Circe;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.08;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.footer__tel {
+  width: 181px;
+  height: 14px;
+  font-family: Circe;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.08;
+  text-align: center;
+}
+
+.footer__loginButton {
+  width: 128px;
+  height: 38px;
+  border-radius: 100px;
+  border: solid 1px #dfdfdf;
+}
+
+.footer__loginButtonText {
+  width: 95px;
+  height: 14px;
+  font-family: Circe;
+  font-size: 13px;
+  line-height: 38px;
+  text-align: center;
+  margin: 0 auto;
+  color: #000000;
+}
+
+@media (max-width: 768px) {
+    .wantBe__footer {
+      padding: 0 49px;
+    }  
+}
+
+@media (max-width: 678px) {
+  .wantBe__titleText {
+    padding-top: 32px;
+  }
+  .wantBe__title {
+    width: 270px;
+    height: 66px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.38;
+    margin-bottom: 28px;
+  }
+
+  .wantBe__titleDesc {
+    width: 270px;
+    height: 63px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+
+  .wantBe__footer {
+    flex-direction: column;
+  }
+
+  .footer__contacts {
+    flex-direction: column;
+  }
+
+  .footer__email {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+
+  .footer__tel {
+    margin-bottom: 36px;
+  }
+
+  .footer__logo {
+    margin-bottom: 39px;
+  }
+
+  .footer__loginButton {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .wantBe__buttons {
+    flex-wrap: wrap;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 47px;
+  }
+
+  .wantBe__button {
+    width: 100%;
+
+    &:first-child {
+      margin-right: 0px;
+      margin-bottom: 18px;
+    }
+  }
+
+  .wantBe__buttonText {
+    width: 107px;
+    height: 14px;
+    font-size: 12px;
+    line-height: 49px;
+  }
+}
