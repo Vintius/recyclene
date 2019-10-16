@@ -1,0 +1,55 @@
+body {
+	font: 16px/1.4  Circe, "Arial", sans-serif;
+	color: $black;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, ul {
+	padding: 0;
+	margin: 0;
+}
+
+.content {
+	max-width: 1440px;
+	min-width: 320px;
+	margin: 0 auto;
+	padding: 0 152px;
+}
+
+.for-mobile {
+	display: none;
+}
+
+.container {
+	@include container();
+	@include sm(max-width, 510px);
+	@include md(max-width, 690px);
+	@include lg(max-width, 930px);
+	@include xl(max-width, 1110px);
+}
+
+.img-responsive {
+	max-width: 500px;
+	width: 100%;
+	height: auto;
+}
+
+@media (max-width: $desktop) {
+	.content {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+
+@media (max-width: $mobile) {
+	.content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.for-mobile {
+		display: block;
+	}
+}

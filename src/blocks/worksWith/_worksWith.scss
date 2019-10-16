@@ -1,0 +1,149 @@
+.worksWith {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.worksWith__title {
+  width: 486px;
+  height: 38px;
+  margin: 0 auto;
+  //margin-bottom: 91px;
+  font-family: Circe;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.19;
+  color: #000000;
+}
+
+.worksWith__comments {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 88px;
+  justify-content: center;
+}
+
+.worksWith__comment {
+  flex-basis: 50%;
+  //position: relative;
+}
+
+.worksWith__commentText {
+  width: 350px;
+  height: 72px;
+  margin: 0 auto;
+  margin-bottom: 31px;
+  margin-top: 90px;
+  font-family: Circe;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.worksWith__commentAutor {
+  //position: absolute;
+  width: 210px;
+  height: 14px;
+  margin: 0 auto;
+  margin-bottom: 9px;
+  font-family: Circe;
+  font-size: 16px;
+  line-height: 0.88;
+  color: #80ba27;
+}
+
+.worksWith__commentOrg {
+  //position: absolute;
+  width: 210px;
+  height: 14px;
+  margin: 0 auto;
+  font-family: Circe;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1;
+  color: #969696;
+}
+
+.worksWith__logos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  border-top: solid 3px #e5e5e5;
+}
+
+.worksWith__logo {
+  width: 230px;
+  height: 140px;
+  line-height: 140px;
+  border-right: solid 2px #e5e5e5;
+  &:first-child {
+    border-left: solid 2px #e5e5e5;
+  }
+}
+
+.worksWith__logoImage {
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .worksWith__comments.content {
+    padding-left: 53px;
+    padding-right: 53px;
+  }
+
+  .worksWith__commentText {
+    width: 280px;
+  } 
+  
+}
+
+@media (max-width: 660px) {
+  .worksWith__title {
+    width: 270px;
+    height: 33px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.38;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .worksWith__commentText {
+    margin-top: 0;
+    margin-bottom: 38px;
+    width: 270px;
+    height: 72px;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+  }
+
+  .worksWith__commentAutor {
+    margin-bottom: 9px;
+  }
+
+  .worksWith__commentOrg {
+    margin-bottom: 32px;
+  }
+
+  .worksWith__logos {
+    flex-wrap: wrap;
+  }
+
+  .worksWith__logo {
+    width: 160px;
+    height: 112px;
+    &:nth-of-type(3) {
+      border-left: solid 2px #e5e5e5;
+    }
+    &:nth-of-type(1), &:nth-of-type(2) {
+      border-bottom: solid 2px #e5e5e5;
+    }
+  }
+
+  .worksWith__logoImage {
+    transform: scale(0.75);
+    vertical-align: inherit;
+  }
+}
