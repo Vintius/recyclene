@@ -10,6 +10,12 @@ $('.js-slick-carousel').slick({
     infinite: true,
     responsive: [
         {
+            breakpoint: 720,
+            settings: {
+                dots: true
+            }
+        },
+        {
             breakpoint: 321,
             settings: {
                 slidesToShow: 1,
