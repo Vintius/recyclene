@@ -94,6 +94,11 @@
     font: 0/0 $font-circe;
     background: url('../img/arrow.svg') no-repeat center center;
     cursor: pointer;
+    border-radius: 50%;
+
+    &:hover {
+      background: url('../img/arrow.svg') no-repeat center center, #93d645;
+    }
   }
 
   .slick-next {
@@ -154,6 +159,10 @@
 }
 
 @media (max-width: $mobile) {
+  .howItWorks {
+    padding-bottom: 32px;
+  }
+
   .howItWorks__col {
     flex-basis: 100%;
     width: 100%;
@@ -190,6 +199,15 @@
       transform: translateX(-131px);
       background: url("../img/mobile.png") no-repeat center center;
     }
+  }
+
+  .howItWorks__sliderDesc {
+    margin-bottom: 25px;
+    width: 270px;
+    height: 63px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
   }
 }
 

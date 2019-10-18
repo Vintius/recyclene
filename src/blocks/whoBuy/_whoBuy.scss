@@ -67,5 +67,36 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 1.44;
+}
 
+@media (max-width: 425px) {
+  .whoBuy .content__title {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.38;
+    margin-bottom: 0;
+  }
+
+  .whoBuy__imageWrapper {
+    transform: scale(0.75);
+    margin-bottom: 10px;
+  }
+
+  .whoBuy__text {
+    width: 270px;
+    height: 46px;
+    font-size: 14px;
+    line-height: 1.64;
+  }
+
+  .whoBuy__item {
+    margin-top: 20px;
+
+     .whoBuy__title {
+      width: 270px;
+      height: 25px;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.56;
+  }}
 }
