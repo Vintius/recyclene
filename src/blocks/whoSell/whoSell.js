@@ -12,12 +12,6 @@ $('.js-slick-carousel').slick({
         {
             breakpoint: 720,
             settings: {
-                dots: true
-            }
-        },
-        {
-            breakpoint: 321,
-            settings: {
                 slidesToShow: 1,
                 arrows: false,
                 dots: true,
