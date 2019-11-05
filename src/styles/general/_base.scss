@@ -48,6 +48,14 @@ a, button {
 	}
 }
 
+@media (max-width: $tablet) {
+	body {
+		&.has-no-overflow {
+			overflow: hidden;
+		}
+	}
+}
+
 @media (max-width: $mobile) {
 	.content {
 		padding-left: 20px;

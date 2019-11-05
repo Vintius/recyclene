@@ -1,17 +1,100 @@
-.menu__mainButton {
+.menu {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  z-index: 5;
+  transition: all 0.5s ease;
+
+  .menu__logo {
+    display: none;
+  }
+
+  &.is-fixed {
+    display: flex;
+    position: fixed;
+    height: 70px;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.1);
+
+    .menu__logo {
+      display: block;
+      width: 140px;
+      margin-right: 137px;
+    }
+
+    .menuButton {
+      color: #a1a1a1;
+      margin-right: 30px;
+      min-width: auto;
+      font-size: 13px;
+
+      &:hover {
+        color: black;
+        font-weight: bold;
+      }
+
+      &--border {
+       border-color: #d0d0d0;
+       margin-left: 119px;
+       margin-right: 0;
+      }
+    }
+
+    .menu__container {
+      margin-top: 0;
+    }
+  }
+}
+
+.menu__container {
+  margin-top: 50px;
+}
+
+.menu__content {
+  position: relative;
+  display: flex;
+  transition: all 0.5s ease;
+
+  &.content {
+      padding: 0 141px;
+  }
+}
+
+.menu__button {
+}
+
+.menuMainButton {
   display: none;
   padding: 0 14px;
   padding-top: 13px;
   cursor: pointer;
   transition: all 0.5s ease;
 
+
   &:hover {
     background: #93d645;
   }
+
+  &.is-active {
+
+  }
 }
 
-.menu__mainButtonLines {
+.menuMainButtonLines {
 
+}
+
+.menuMainButtonText {
+  width: 44px;
+  height: 14px;
+  font-family: Circe;
+  font-size: 13px;
+  line-height: 14px;
+  text-align: right;
+  color: #ffffff;
 }
 
 .mainButtonLines__line1 {
@@ -31,36 +114,6 @@
   margin: 3px 0;
 }
 
-.menu__mainButtonText {
-  width: 44px;
-  height: 14px;
-  font-family: Circe;
-  font-size: 13px;
-  line-height: 14px;
-  text-align: right;
-  color: #ffffff;
-}
-
-.menu {
-  position: absolute;
-  width: 100%;
-  height: 40px;
-  background: transparent;
-  margin-top: 50px;
-  z-index: 1;
-  transition: all 0.5s ease;
-}
-
-.menu__content {
-  position: relative;
-  display: flex;
-  transition: all 0.5s ease;
-}
-
-.menu__button {
-  margin-right: 70px;
-}
-
 .menuButton {
   display: block;
   text-align: center;
@@ -68,10 +121,10 @@
   line-height: 38px;
   color: white;
   min-width: 105px;
+  margin-right: 70px;
 
   &:hover {
-    background: white;
-    color: black;
+    color: $green;
   }
 
   &--border {
@@ -81,50 +134,77 @@
     border-radius: 100px;
     margin-right: 0;
     margin-left: auto;
+
+    &:hover {
+      color: $black;
+      background-color: $white;
+    }
   }
 }
 
-@media (max-width: 900px) {
-  .menu__container {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    right: 100%;
-
-    &.is-active {
-      right: 0;
-
-      .menu {
-        transform: none;
-      }
-
-      .menu__rightSide {
-        display: block;
-      }
+@media (max-width: $desktop) {
+  .menu__content {
+    &.content {
+      padding: 0 2.3%;
     }
   }
+}
 
-  .menu {
+@media (max-width: $tablet) {
+  .menu__container {
     width: 320px;
     height: 100%;
+    min-height: 400px;
     display: flex;
-    position: static;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px;
     background-color: #899ca8;
     margin-top: 0;
     transform: translateX(-320px);
     z-index: 4;
+    transition: transform $transition-normal;
+
+    .is-active & {
+      transform: translateX(0);
+    }
+  }
+
+  .menu {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: z-index $transition-normal;
+
+    &.is-fixed {
+      display: none;
+    }
+
+    &.is-active {
+      display: flex;
+      z-index: 99;
+      transition: position $transition-normal;
+    }
   }
 
   .menu__rightSide {
     width: 100%;
     height: 100%;
-    position: absolute;
-    display: none;
+    position: fixed;
+    opacity: 0;
     background: rgba(0, 0, 0, 0.3);
     z-index: 3;
     cursor: pointer;
+    transition: opacity $transition-normal;
+
+    .is-active & {
+      opacity: 1;
+    }
   }
 
   .menu__content {
@@ -133,30 +213,38 @@
     transition: all 0.5s ease;
 
     &.content {
-      padding: 0 40px;
-      padding-top: 179px;
+      padding: 0;
+      min-width: auto;
+      flex-basis: 100%;
     }
   }
 
   .menuButton {
+    margin: 0;
     text-align: left;
-    font-family: Circe;
-    font-size: 20px;
-    line-height: 0.7;
-    color: #ffffff;
-    margin-bottom: 52px;
+    font: 20px/1.4 $font-circe;
+    color: $white;
+
+    &:not(:last-child) {
+      margin-bottom: 45px;
+    }
 
     &:hover {
-      color: #7bb637;
+      color: #93d645;
+    }
+
+    &--border {
+      height: auto;
+      margin-left: 0;
+      border: none;
+
+      &:hover {
+        background: transparent;
+      }
     }
   }
 
-  .menuButton--border {
-    margin-left: 0;
-    border: none;
-  }
-
-  .menu__mainButton {
+  .menuMainButton {
     display: flex;
     position: absolute;
     width: 95px;
@@ -166,9 +254,11 @@
     right: 39px;
     top: 49px;
     z-index: 5;
+    opacity: 1;
+    transition: opacity $transition-normal, background-color $transition-normal;
 
     &.is-active {
-      display: none;
+      opacity: 0;
     }
     &--close {
       display: none;
@@ -177,27 +267,26 @@
 }
 
 @media (max-width: $mobile) {
-  .menu__mainButton {
+  .menuMainButton {
     top: 36px;
-    transition: all 0.5s ease;
-  }
-}
-
-@media (max-width: 372px) {
-  .menu__mainButton {
-    width: 38px;
-    height: 38px;
-    padding-right: 0;
-    padding-left: 10px;
+    //transition: all 0.5s ease;
 
     &.is-active {
-      display: block;
+      z-index: 100;
+      display: flex;
+      position: fixed;
+      right: auto;
+      left: 239px;
+      width: 38px;
+      height: 38px;
+      padding-right: 0;
+      padding-left: 10px;
+      opacity: 1;
 
 
-      .menu__mainButtonLines {
+      .menuMainButtonLines {
         transform: translate(1px, 2px);
         padding-top: 1px;
-
       }
 
       .mainButtonLines__line1 {
@@ -218,19 +307,11 @@
       .mainButtonLines__line2 {
         display: none;
       }
+
+      .menuMainButtonText {
+        display: none;
+      }
     }
-  }
-
-  .mainButtonLines__line1 {
-
-  }
-
-  .mainButtonLines__line2 {
-
-  }
-
-  .menu__mainButtonText {
-    display: none;
   }
 }
 

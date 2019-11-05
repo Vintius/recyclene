@@ -1,8 +1,5 @@
-@import "node_modules/slick-slider/slick/slick.scss";
-
 .whoSell {
   padding-top: 72px;
-  //padding-bottom: 94px;
   position: relative;
   background-color: #f8f8f8;
 }
@@ -32,16 +29,17 @@
 }
 
 .sliderButtons__arrow {
+  transition: box-shadow $transition-fast;
   border-radius: 50%;
-  transition: all 0.5s ease;
-
-  &:hover {
-    background: #93d645;
-  }
+  cursor: pointer;
 
   &--right {
     transform: rotate(180deg);
     margin-left: 14px;
+  }
+
+  &:hover {
+    box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.5);
   }
 }
 
@@ -127,6 +125,7 @@ li.slick-active {
   }
 
   .sliderItem {
+    height: auto;
     margin-bottom: 41px;
   }
 

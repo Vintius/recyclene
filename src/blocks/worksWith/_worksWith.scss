@@ -4,9 +4,9 @@
 }
 
 .worksWith__title {
-  width: 486px;
-  height: 38px;
-  margin: 0 auto;
+  //width: 486px;
+  //height: 38px;
+  //margin: 0 auto;
   //margin-bottom: 91px;
   font-family: Circe;
   font-size: 32px;
@@ -28,7 +28,7 @@
 }
 
 .worksWith__commentText {
-  width: 350px;
+  //width: 350px;
   height: 72px;
   margin: 0 auto;
   margin-bottom: 31px;
@@ -67,96 +67,100 @@
 .worksWith__logos {
   display: flex;
   justify-content: center;
-  max-width: 924px;
-  margin: 0 auto;
-  transform: translateX(1px);
+  padding: 0 18.5%;
+  border-top: 2px solid #e5e5e5;
+  //transform: translateX(1px);
 }
 
 .worksWith__logo {
-  flex-basis: 50%;
-  width: 25%;
-  min-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 25%;
   height: 140px;
-  line-height: 140px;
-  border-right: solid 2px #e5e5e5;
-  border-bottom: solid 2px #e5e5e5;
-  border-left: solid 2px #e5e5e5;
-  margin-left: -2px;
+  border-right: 2px solid #e5e5e5;
 
   &:first-child {
-    border-left: solid 2px #e5e5e5;
+    border-left: 2px solid #e5e5e5;
   }
-}
-
-.line {
-  width: 100%;
-  height: 3px;
-  background: #e5e5e5;
 }
 
 .worksWith__logoImage {
-  vertical-align: middle;
+  height: 22%;
 }
 
-@media (max-width: 768px) {
-  .worksWith__comments.content {
-    padding-left: 53px;
-    padding-right: 53px;
+@media (max-width: $desktop) {
+  .worksWith__logos {
+    padding: 0;
   }
 
-  .worksWith__commentText {
-    width: 280px;
-  } 
-  
+  .worksWith__logo {
+    &:first-child {
+      border-left: 0;
+    }
+
+    &:last-child {
+      border-right: 0;
+    }
+  }
 }
 
-@media (max-width: 660px) {
-  .worksWith__title {
-    width: 270px;
-    height: 33px;
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 1.38;
-    text-align: center;
-    margin-bottom: 35px;
+@media (max-width: $mobile) {
+  .worksWith__comments {
+    &.content {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
   }
 
-  .worksWith__commentText {
-    margin-top: 0;
-    margin-bottom: 38px;
-    width: 270px;
-    height: 72px;
-    font-size: 14px;
-    line-height: 1.71;
-    text-align: center;
-  }
-
-  .worksWith__commentAutor {
-    margin-bottom: 9px;
-  }
-
-  .worksWith__commentOrg {
-    margin-bottom: 32px;
+  .worksWith__comment {
+    flex-basis: 100%;
   }
 
   .worksWith__logos {
     flex-wrap: wrap;
-    max-width: 320px;
   }
 
   .worksWith__logo {
-    width: 25%;
-    height: 112px;
-    //&:nth-of-type(3) {
-    //  border-left: solid 2px #e5e5e5;
-    //}
-    //&:nth-of-type(1), &:nth-of-type(2) {
-    //  border-bottom: solid 2px #e5e5e5;
-    //}
+    flex-basis: 50%;
+    height: 110px;
+    border: 0;
+    border-bottom: 2px solid #e5e5e5;
+
+    &:nth-child(2n+1) {
+      border-right: 2px solid #e5e5e5;
+    }
+    &:nth-last-child(1),
+    &:nth-last-child(2) {
+      border-bottom: 0;
+    }
   }
 
   .worksWith__logoImage {
-    transform: scale(0.75);
-    vertical-align: inherit;
+    height: 40%;
+  }
+}
+
+@media (max-width: 500px) {
+  .worksWith__logo {
+    height: 72px;
+  }
+}
+
+@media (max-width: 425px) {
+  .worksWith__title {
+    font-size: 24px;
+  }
+
+  .worksWith__commentText {
+    font-size: 14px;
+  }
+
+  .worksWith__commentAutor {
+    font-size: 16px;
+  }
+
+  .worksWith__commentOrg {
+    font-size: 14px;
   }
 }
