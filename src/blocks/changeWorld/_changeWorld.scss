@@ -45,6 +45,7 @@
 .changeWorld__itemIn {
   position: relative;
   flex-basis: 230px;
+  width: 230px;
   text-align: center;
 
   &:before {
@@ -153,20 +154,18 @@
 @media (max-width: 740px) {
   .changeWorld__content {
     max-width: 270px;
-    //transition: all 0.5s ease;
   }
 
   .changeWorld__cols {
     flex-direction: column;
     height: 500px;
     padding: 0;
-    //transition: all 0.5s ease;
   }
 
   .changeWorld__itemIn {
     &:before {
-      transform: rotate(-90deg) scale(0.6);
-      left: 29%;
+      transform: translateX(-50%) rotate(-90deg) scale(0.6);
+      left: 50%;
       top: 41%;
     }
     &--right {
@@ -175,24 +174,21 @@
       flex-direction: column;
       &:before {
         top: 68%;
-        left: 31%;
       }
     }
 
   }
 
   .changeWorld__imageWrapper {
-    //transition: all 0.5s ease;
-    transform: scale(0.7);
+    transform: translateX(-50%) scale(0.7);
+    left: 50%;
 
     &--small {
       top: -4%;
-      right: auto;
     }
 
     &--big {
       top: 36%;
-      left: -32%;
     }
   }
 }
