@@ -797,23 +797,21 @@ li.slick-active {
 .wantBe__title {
   width: 398px;
   height: 24px;
-  font-family: Circe;
+  font-family: Circe, Arial, sans-serif;
   font-size: 32px;
   font-weight: 300;
   line-height: 0.75;
-  margin: 0 auto;
-  margin-bottom: 28px; }
+  margin: 0 auto 28px; }
 
 .wantBe__titleDesc {
   width: 540px;
   height: 50px;
-  font-family: Circe;
+  font-family: Circe, Arial, sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.56;
   text-align: center;
-  margin: 0 auto;
-  margin-bottom: 46px; }
+  margin: 0 auto 46px; }
 
 .wantBe__buttons {
   display: flex;
@@ -835,7 +833,7 @@ li.slick-active {
 .wantBe__buttonText {
   width: 107px;
   height: 14px;
-  font-family: Circe;
+  font-family: Circe, Arial, sans-serif;
   font-size: 12px;
   font-weight: 800;
   line-height: 50px;
@@ -866,7 +864,7 @@ li.slick-active {
   height: 38px;
   border-radius: 100px;
   border: solid 1px #dfdfdf;
-  font-family: Circe;
+  font-family: Circe, Arial, sans-serif;
   font-size: 13px;
   line-height: 38px;
   text-align: center;
@@ -1199,7 +1197,7 @@ li.slick-active {
     max-width: 270px;
     margin: 0 auto 47px; }
     .wantBe__buttons .wantBe__button:first-child {
-      margin-right: 0px; }
+      margin-right: 0; }
   .wantBe__footer {
     flex-direction: column; }
   .footer__contacts {
@@ -1207,13 +1205,14 @@ li.slick-active {
     .footer__contacts .footer__link {
       font-size: 16px; }
       .footer__contacts .footer__link:not(:last-child) {
-        margin-right: 0px;
+        margin-right: 0;
         margin-bottom: 24px; }
   .footer__email {
     margin-right: 0;
     margin-bottom: 24px; }
   .footer__logo {
-    margin-bottom: 39px; }
+    margin-bottom: 39px;
+    align-self: center; }
   .footer__loginButton {
     display: none; } }
   @media (max-width: 500px) {
