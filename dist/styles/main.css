@@ -1120,6 +1120,10 @@ li.slick-active {
     padding-bottom: 41px; }
   .howItWorks {
     padding-bottom: 32px; }
+  .howItWorks__mobile {
+    display: block;
+    left: 50%;
+    transform: translateX(-131px) translateY(16px); }
   .howItWorks__col {
     flex-basis: 100%;
     width: 100%;
@@ -1146,6 +1150,7 @@ li.slick-active {
       height: 312px;
       position: absolute;
       top: -79px;
+      left: 50%;
       transform: translateX(-131px);
       background: url("../img/mobile.png") no-repeat center center; }
   .howItWorks__sliderDesc {
@@ -1155,10 +1160,6 @@ li.slick-active {
     font-size: 14px;
     font-weight: 300;
     line-height: 1.5; }
-  .howItWorks__mobile {
-    display: block;
-    left: 50%;
-    transform: translateX(-131px) translateY(16px); }
   .worksWith__comments.content {
     padding-left: 10%;
     padding-right: 10%; }

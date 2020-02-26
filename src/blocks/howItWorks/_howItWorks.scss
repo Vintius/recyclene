@@ -164,6 +164,12 @@
     padding-bottom: 32px;
   }
 
+  .howItWorks__mobile {
+    display: block;
+    left: 50%;
+    transform: translateX(-131px) translateY(16px);
+  }
+
   .howItWorks__col {
     flex-basis: 100%;
     width: 100%;
@@ -193,10 +199,9 @@
       content: "";
       width: 262px;
       height: 312px;
-      //display: block;
       position: absolute;
       top: -79px;
-      //left: 50%;
+      left: 50%;
       transform: translateX(-131px);
       background: url("../img/mobile.png") no-repeat center center;
     }
@@ -282,159 +287,3 @@
   margin: 0 auto;
   position: absolute;
 }
-
-@media (max-width: $mobile) {
-  .howItWorks__mobile {
-    display: block;
-    left: 50%;
-    transform: translateX(-131px) translateY(16px);
-  }
-}
-
-//
-//.mobileLine {
-//  width: 31px;
-//  height: 3px;
-//  background-color: #d8d8d8;
-//  margin: 24px auto 20px auto;
-//  border-radius: 3px;
-//}
-//
-//.mobile-slide {
-//  display: none;
-//  width: 171px;
-//  height: 316px;
-//}
-//
-////img.mobileSlide {
-////  display: none;
-////}
-//
-//@media (max-width: 1023px) {
-//  .howItWorks {
-//    padding-bottom: 75px;
-//  }
-//
-//  .howItWorks__tabsButtons {
-//    margin-bottom: 47px;
-//  }
-//
-//  .howItWorks__tab {
-//    position: relative;
-//    justify-content: center;
-//  }
-//
-//  .howItWorks__col {
-//    //position: relative;
-//    margin-right: 0;
-//  }
-//
-//  .howItWorks__sliderTextTitle {
-//    margin-bottom: 424px;
-//  }
-//
-//  .howItWorks__sliderTextDisc {
-//    margin-bottom: 0;
-//  }
-//
-//  .howItWorks__sliderText:not(:first-of-type) {
-//    position: absolute;
-//    padding-top: 0px;
-//    top: 0;
-//    left: 0;
-//  }
-//
-//  .howItWorks__sliderLeft {
-//    padding-top: 0;
-//  }
-//
-//  .howItWorks__sliderButtons {
-//    position: absolute;
-//    left: 50%;
-//    top: 40%;
-//    width: 668px;
-//    transform: translateX(-334px);
-//    justify-content: space-between;
-//  }
-//
-//  .howItWorks__sliderRight {
-//    position: absolute;
-//    transform: scale(0.8);
-//    top: 39px;
-//  }
-//}
-
-//@media (max-width: 740px) {
-//  .howItWorks {
-//    padding-bottom: 32px;
-//  }
-//
-//  .howItWorks__title {
-//    width: 270px;
-//    height: 33px;
-//    font-size: 24px;
-//    line-height: 1.38;
-//  }
-//
-//  .howItWorks__tabsButtons {
-//    margin-bottom: 43px;
-//    width: 270px;
-//    height: 48px;
-//  }
-//
-//  .howItWorks__merchantButton {
-//     width: 135px;
-//     height: 48px;
-//   }
-//
-//  .howItWorks__buyerButton {
-//    width: 135px;
-//    height: 48px;
-//  }
-//
-//  .howItWorks__buttonText {
-//    width: 135px;
-//    height: 14px;
-//    font-size: 10px;
-//    line-height: 49px;
-//  }
-//
-//  .howItWorks__sliderRight {
-//    display: none;
-//  }
-//
-//  .howItWorks__mobile {
-//    display: block;
-//    position: absolute;
-//    top: 100px;
-//    left: 50%;
-//    transform: translateX(-131px);
-//
-//  }
-//
-//  .howItWorks__sliderButtons {
-//    position: relative;
-//    left: 0;
-//    top: 0;
-//    margin: 0 auto;
-//    width: 103px;
-//    transform: none;
-//    justify-content: center;
-//  }
-//
-//  .howItWorks__col {
-//    position: relative;
-//  }
-//
-//  .mobile-slide {
-//    display: block;
-//    position: absolute;
-//    top: 186px;
-//    left: 50%;
-//    transform: translateX(-86px);
-//  }
-//
-//  .howItWorks__sliderTextDisc {
-//    margin-bottom: 27px;
-//  }
-//}
