@@ -846,6 +846,9 @@ li.slick-active {
   justify-content: space-between;
   color: #7d7d7d; }
 
+.footer__logo {
+  align-self: center; }
+
 .footer__contacts {
   display: flex;
   align-items: center; }
@@ -1211,8 +1214,7 @@ li.slick-active {
     margin-right: 0;
     margin-bottom: 24px; }
   .footer__logo {
-    margin-bottom: 39px;
-    align-self: center; }
+    margin-bottom: 39px; }
   .footer__loginButton {
     display: none; } }
   @media (max-width: 500px) {
