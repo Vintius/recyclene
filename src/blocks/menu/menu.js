@@ -20,6 +20,7 @@ $mainButton.on('click', function(e) {
         $body.addClass('has-no-overflow');
     }
 });
+
 $('.js-right-side').click(removeClasses);
 $('.js-menu-button').on('click', function(e) {
     e.preventDefault();
