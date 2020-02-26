@@ -8,6 +8,7 @@ $('.js-slick-carousel').slick({
     slidesToShow: 2,
     variableWidth: true,
     infinite: true,
+    swipeToSlide: true,
     responsive: [
         {
             breakpoint: 720,

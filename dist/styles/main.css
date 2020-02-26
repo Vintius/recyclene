@@ -115,19 +115,19 @@ sub, sup {
 
 @font-face {
   font-family: Circe;
-  src: url("../../fonts/Circe-Regular.ttf");
+  src: url("../fonts/Circe-Regular.ttf");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: Circe;
-  src: url("../../fonts/Circe-Bold.ttf");
+  src: url("../fonts/Circe-Bold.ttf");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: Circe;
-  src: url("../../fonts/Circe-Light.ttf");
+  src: url("../fonts/Circe-Light.ttf");
   font-weight: normal;
   font-style: normal; }
 
@@ -198,7 +198,7 @@ a, button {
   color: white; }
 
 .header__content {
-  background: url("../../img/bitmap.jpg") 512px center no-repeat;
+  background: url("../img/bitmap.jpg") 512px center no-repeat;
   padding-top: 164px;
   padding-bottom: 75px;
   transition: all 0.5s ease; }
